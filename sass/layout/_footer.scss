@@ -1,0 +1,117 @@
+
+.footer {
+   background: #2f303a;
+   padding: 60px 0;
+ }
+ .footer__container{
+   display: flex;
+   align-items: baseline;
+ }
+ .footer__address {
+   min-width: 231px;
+   margin-right: 70px;
+
+ }
+ .footer__logo {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-size: 26px;
+   line-height: calc(31 / 26);
+   letter-spacing: 0.03em;
+   color: var(--accent-color);
+ }
+ .footer__logo--span {
+   color: var(--main-title-color);
+ }
+ .address {
+  margin-top: 20px;
+ }
+ .address-list {
+   display: flex;
+   flex-direction: column;
+   gap: 9px;
+ }
+ .footer__link {
+   line-height: calc(24 / 14);
+   color: var(--main-title-color);
+   font-style: normal;
+ }
+ .footer__address-cont {
+    line-height: calc(24 / 14);
+   color: rgba(255, 255, 255, 0.6);
+   font-style: normal;
+
+   transition-property: color;
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ }
+ .footer__address-cont:hover,
+ .footer__address-cont:focus {
+   color: var(--accent-color);
+ }
+
+ .socials__footer--dark {
+ display: flex;
+ justify-content: center;
+   align-items: center;
+   gap: 10px;
+
+ }
+
+ .footer__socials {
+   margin-right: 93px;
+ }
+ .footer__title {
+   text-transform: uppercase;
+
+ }
+
+
+ .socials__link--dark {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 44px;
+   height: 44px;
+   border-radius: 50%;
+   background: rgba(255, 255, 255, 0.1);
+   fill: #FFFFFF;
+
+   transition-property: background-color;
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ }
+ .socials__link--dark:hover,
+ .socials__link--dark:focus  {
+   background-color: var(--accent-color);
+ }
+
+
+ .footer__title {
+   color: var(--main-title-color);
+     margin-bottom: 20px;
+     font-weight: 700;
+
+ }
+ .footer__form-mailing {
+   display: flex;
+
+ }
+
+ .footer__input {
+   padding: 16px;
+
+   width: 358px;
+   height: 50px;
+   margin-right: 12px;
+
+   border-radius: 4px;
+   background-color:#2f303a;
+   color: var(--main-title-color);
+   outline: 2px solid transparent;
+
+   border: 1px solid rgba(255, 255, 255, 0.3);
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+
+   }
+

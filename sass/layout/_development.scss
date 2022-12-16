@@ -1,0 +1,35 @@
+
+.section-title {
+   font-size: 36px;
+   line-height: calc(42 / 36);
+   text-align: center;
+   display: block;
+   margin-bottom: 50px;
+ }
+ .dev-list {
+   display: flex;
+   align-items: center;
+
+ }
+ .dev-item:not(:last-child) {
+ margin-right: 30px;
+ }
+ .dev-item {
+   position:relative;
+ }
+ .overlay {
+ position: absolute;
+ bottom: 0;
+ padding-top: 27px;
+ padding-bottom: 27px;
+ width: 100%;
+ background: rgba(47, 48, 58, 0.8);
+ backdrop-filter: blur(2px);
+ }
+ .overlay-text {
+   text-transform: uppercase;
+ text-align: center;
+ color: var(--main-title-color);
+ font-weight: 700;
+
+ }
