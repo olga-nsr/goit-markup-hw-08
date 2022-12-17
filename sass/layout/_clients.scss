@@ -1,12 +1,10 @@
+.container-clients {
+  @extend %section;
 
-.clients__title {
-   font-size: 36px;
-   line-height: calc(42 / 36);
-   text-align: center;
-   display: block;
-   margin-bottom: 50px;
- }
+
+}
  .clients__list {
+
    display: flex;
    align-items: center;
    gap: 30px;
@@ -17,8 +15,8 @@
    height: 92px;
  }
  .clients__link {
- display: flex;
- justify-content: center;
+  display: flex;
+justify-content: center;
    align-items: center;
    fill:#AFB1B8;
    width: 100%;
