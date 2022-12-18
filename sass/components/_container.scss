@@ -6,9 +6,6 @@ $breakpoints: (
 
 .container {
 
-
-
-   width: 1200px;
    margin-right: auto;
    margin-left: auto;
    padding-right: 15px;
@@ -19,9 +16,9 @@ $breakpoints: (
 
 
    // phone screen
-  @media screen and (min-width: 480px) {
-    width: 480px;
-  }
+     @media screen and (min-width: 480px) {
+     width: 480px;
+     }
 
   // tablet screen
   @media screen and (min-width: 768px) {
