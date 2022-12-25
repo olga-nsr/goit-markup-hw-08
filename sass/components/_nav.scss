@@ -1,9 +1,18 @@
 .nav {
   display: none;
-  // display: none;
-  //  margin-right: auto;
-  //  align-items: center;
-  //  display: flex;
+  @media (min-width:  768px) {
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+
+
+  }
+  @media (min-width: 1200px) {
+
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+  }
  }
  .nav__list {
    display: flex;

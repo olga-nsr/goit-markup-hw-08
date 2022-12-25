@@ -15,20 +15,20 @@
  .hero__title {
    align-items: center;
    font-weight: 900;
-
-   font-size: 26px;
-   line-height: calc(42 / 26);
-
-   //font-size: 44px;
-   //line-height: calc(60 / 44);
    letter-spacing: 0.06em;
    text-transform: uppercase;
    color: var(--main-title-color);
-   width: 696px;
+
    margin-left: auto;
    margin-right: auto;
+   font-size: 26px;
+    line-height: calc(42 / 26);
+    width: 360px;
 
-   @media screen and (min-width: 480px) {
-    font-size: 26px;
+
+      @media screen and (min-width: 1200px) {
+        font-size: 44px;
+   line-height: calc(60 / 44);
+   width: 696px;
+      }
 }
- }
