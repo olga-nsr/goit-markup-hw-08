@@ -37,13 +37,17 @@
 
   justify-content: center;
    align-items: center;
-   padding-bottom: 32px;
-   padding-top: 32px;
+   padding-bottom: 10px;
+   padding-right: 15px;
 
    transition-property: color;
    transition-duration: 250ms;
    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
+   @media screen and (min-width: 1200px) {
+    padding-bottom: 32px;
+    padding-top: 32px;
+    }
  }
  .header__contact:hover,
  .header__contact:focus {
